@@ -19,25 +19,40 @@
   </head>
   <body>
     <main>
-      <h1>Rent homes.anytime.</h1>
-      <div class="mb-3 row-cols-auto g-3">
-        <form>
-          <input
-            class="form-control-sm"
-            type="text"
-            name="username"
-            placeholder="username"
-          />
-          <br />
-          <input
-            class="form-control-sm"
-            type="password"
-            name="password"
-            placeholder="passcode"
-          />
-          <br />
-          <input class="btn btn-dark" type="submit" title="rent" />
-        </form>
+      <div>
+        <img
+          src="/images/laying.svg"
+          alt="logo for search"
+          style="height: 200px; width: 200px"
+        />
+
+        <h1>Ready to move!</h1>
+        <p>Find a place to rent!</p>
+
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            margin: auto;
+          "
+        >
+          <select name="type_of_room" id="">
+            <option value="data-single">Single Room</option>
+            <option value="data-two">Two Rooms</option>
+            <option value="data-three">Three Rooms</option>
+            <option value="data-four">Four Room</option>
+            <option value="data-five">Fve Room</option>
+          </select>
+          <select name="places covered" id="" style="">
+            <option value="data-ad">Adenta</option>
+            <option value="data-Os">Osu</option>
+            <option value="data-ad">Madina</option>
+            <option value="data-ad">Kasoa</option>
+          </select>
+          <hr />
+          <button style="background-color: #fcd577">Continue</button>
+        </div>
       </div>
     </main>
 
