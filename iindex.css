@@ -12,3 +12,14 @@ main {
   align-content: center;
   min-height: 100vh;
 }
+
+.search {
+  margin: auto;
+  display: flex;
+  /* justify-self: center; */
+  text-align: center;
+  flex-direction: column;
+  padding: 16dp;
+  align-content: center;
+  min-height: 100vh;
+}
