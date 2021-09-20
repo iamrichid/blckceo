@@ -5,7 +5,7 @@ body {
 main {
   margin: auto;
   display: flex;
-  justify-self: center;
+
   text-align: center;
   flex-direction: column;
   justify-content: center;
