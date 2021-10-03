@@ -43,7 +43,8 @@ main {
 .select_place {
   outline: none;
   border-radius: 10px;
-
+  border-color: transparent;
+  background-color: #efefef;
   margin: 8px;
   padding: 8px 12px;
 }
