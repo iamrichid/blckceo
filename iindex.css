@@ -3,6 +3,8 @@
 body {
   background-color: #efefef;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 16px;
 }
 
 main {
@@ -52,6 +54,7 @@ main {
 }
 
 .search_columns {
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
