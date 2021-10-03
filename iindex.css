@@ -23,3 +23,27 @@ main {
   align-content: center;
   min-height: 100vh;
 }
+
+.continue {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  border-radius: 30px;
+  width: 80%;
+  border-color: transparent;
+}
+
+.choose {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+.select_place {
+  outline: none;
+  border-radius: 10px;
+
+  margin: 8px;
+  padding: 8px 12px;
+}
