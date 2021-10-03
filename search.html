@@ -20,102 +20,190 @@
   <body>
     <div class="search">
       <div>
-
-        <h1>SEARCH BY</h1>
-         <div style="display: flex; flex-direction: column; margin:auto; width: 80%;">
-            <select name="type_of_room" id="">
-                <option value="data-single">Price range</option>
-                <option value="data-two">Type of room</option>
-                <option value="data-three">Location</option>
-              </select>
-         
-         
-            <select name="type_of_room" id="">
-            <option value="data-single">Single Room</option>
-            <option value="data-two">Two Rooms</option>
-            <option value="data-three">Three Rooms</option>
-            <option value="data-four">Four Rooms</option>
-            <option value="data-five">Five Rooms</option>
-          </select>
-          <select name="places covered" id="" style="">
-            <option value="data-ad">Adenta</option>
-            <option value="data-Os">Osu</option>
-            <option value="data-ad">Madina</option>
-            <option value="data-ad">Kasoa</option>
-          </select>
+        <!-- the nav bar -->
+        <div
+          class="nav_row"
+          style="display: flex; justify-content: space-between; padding: 20px"
+        >
+          <div class="profile_logo" height="30px">
+            <img src="/images/profile.svg" alt="prfile_logo" height="20px" />
+          </div>
+          <div class="title">
+            <h1><strong>Rent a room</strong></h1>
+          </div>
+          <div class="filter_search">
+            <img src="/images/search.svg" alt="" height="20px" width="20px" />
+          </div>
         </div>
-        <hr>
-        <!--room on display below sample #1  -->
-       <div style="margin:auto; width:80% ">
-        <p>Single Room</p>   
-        <div class="image_container" style="min-height: 200px; border-color: tomato; background-color: teal;">       
-           </div>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>GHS  200 cedis</strong> </p>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>Adenta, Greater Accra, Ghana</strong> </p>
-           <button
-            style="background-color: #fcd577; width: 100%;"
-            onclick="window.location.href='room_details.html'"
-          > View Room
-        </button>
-       </div>
+        <!-- end of nav bar -->
 
-       <!--room on display below sample #2  -->
-       <div style="margin:auto; width:80% ">
-        <p>Single Room</p>   
-        <div class="image_container" style="min-height: 200px; border-color: tomato; background-color: teal;">       
-           </div>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>GHS  200 cedis</strong> </p>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>Adenta, Greater Accra, Ghana</strong> </p>
-           <button
-            style="background-color: #fcd577; width: 100%;"
-            onclick="window.location.href='room_details.html'"
-          > View Room
-        </button>
-       </div>
+        <div class="search_columns">
+          <!-- grid box -->
+          <!-- item one -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
 
+          <!-- item two -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
 
-       <!--room on display below sample #3  -->
-       <div style="margin:auto; width:80% ">
-        <p>Single Room</p>   
-        <div class="image_container" style="min-height: 200px; border-color: tomato; background-color: teal;">       
-           </div>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>GHS  200 cedis</strong> </p>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>Adenta, Greater Accra, Ghana</strong> </p>
-           <button
-            style="background-color: #fcd577; width: 100%;"
-            onclick="window.location.href='room_details.html'"
-          > View Room
-        </button>
-       </div>
+          <!-- item three -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
 
+          <!-- item four -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
+          <!-- item 5 -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
 
-       <!--room on display below sample #4  -->
-       <div style="margin:auto; width:80% ">
-        <p>Single Room</p>   
-        <div class="image_container" style="min-height: 200px; border-color: tomato; background-color: teal;">       
-           </div>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>GHS  200 cedis</strong> </p>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>Adenta, Greater Accra, Ghana</strong> </p>
-           <button
-            style="background-color: #fcd577; width: 100%;"
-            onclick="window.location.href='room_details.html'"
-          > View Room
-        </button>
-       </div>
+          <!-- item 6 -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
 
-       <!--room on display below sample #5  -->
-       <div style="margin:auto; width:80% ">
-        <p>Single Room</p>   
-        <div class="image_container" style="min-height: 200px; border-color: tomato; background-color: teal;">       
-           </div>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>GHS  100 cedis</strong> </p>
-           <p style="margin-bottom: 0px; text-align: left;"><strong>Osu, Greater Accra, Ghana</strong> </p>
-           <button
-            style="background-color: #fcd577; width: 100%;"
-            onclick="window.location.href='room_details.html'"
-          > View Room
-        </button>
-       </div>
+          <!-- item one -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
+
+          <!-- item two -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
+
+          <!-- item three -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
+
+          <!-- item four -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
+          <!-- item 5 -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
+
+          <!-- item 6 -->
+          <div class="item">
+            <div class="room_image">
+              <img src="/images/sear.png" alt="" />
+            </div>
+            <div class="room_desc">
+              <p style="margin: 0px"><b>Single Room</b></p>
+              <p style="margin-top: -5px; padding: 0px; margin-bottom: -5px">
+                200 cedis
+              </p>
+              <p style="margin: 0px">Accra, Osu</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

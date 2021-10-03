@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+
 body {
   background-color: #efefef;
+  font-family: "Open Sans", sans-serif;
 }
 
 main {
   margin: auto;
   display: flex;
-
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -47,4 +49,17 @@ main {
   background-color: #efefef;
   margin: 8px;
   padding: 8px 12px;
+}
+
+.search_columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 5px;
+  row-gap: 10px;
+}
+
+.nav_row {
+  height: 100px;
+  justify-items: center;
 }
