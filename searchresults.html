@@ -18,61 +18,79 @@
   <body class="modal-body d-flex justify-content-center">
     <!-- a search result start -->
 
-    <div
-      class="d-flex p-4 h-auto flex-column"
-      style="background-color: #f8f8f8; width: 399px"
-    >
+    <div class="d-flex p-4 h-auto flex-column" style="width: 30%">
+      <!-- logo -->
+      <div class="d-flex justify-content-center">
+        <img
+          src="/images/logo.png"
+          alt="rent logo"
+          height="50px"
+          width="50px"
+        />
+      </div>
+      <!-- end of logo -->
+
+      <!-- heading -->
+      <h1 style="text-align: center">Roomies</h1>
+      <!-- end of heading -->
+
+      <!-- search input -->
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search room"
+          aria-label="Room search label"
+          aria-describedby="room-bottom"
+        />
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="button-addon2"
+        >
+          <img src="/images/search.svg" alt="" />
+        </button>
+      </div>
+
+      <!-- end of search input -->
+
+      <!-- search filters -->
+      <div
+        class="d-flex justify-content-center justify-content-evenly"
+        style="margin-top: 16px; margin-bottom: 16px"
+      >
+        <button style="background-color: black; color: white">
+          add filters
+        </button>
+        <button style="background-color: white">location</button>
+        <button style="background-color: white">Price Range</button>
+        <button style="background-color: white">type of room</button>
+      </div>
+      <!-- end of searh filters -->
+
       <!-- duplicated search results -->
-      <div id="result-1" class="d-flex m-s1">
-        <div class="border-1 bg-dark d-md-flex p-3">
-          <img src="/images/littlehome.jpg" alt="a home picure here" />
-        </div>
 
-        <div id="room-content" class="p-3">
-          <h3 id="type-of-room">Single Room</h3>
-          <h4 id="kind-of-room">Self-contained</h4>
-          <h4 id="location-of-room">Osu,Accra</h4>
-        </div>
+      <!-- card bgins -->
 
-        <div id="price-box" class="p-3">
-          <p>300 Cedis</p>
-          <button class="dark">View</button>
+      <div class="card border-dark">
+        <div id="result-1" class="d-flex m-s1">
+          <div class="d-md-flex p-3">
+            <img src="/images/littlehome.jpg" alt="a home picure here" />
+          </div>
+
+          <div id="room-content" class="p-3">
+            <h3 id="type-of-room">Single Room</h3>
+            <h4 id="kind-of-room">Self-contained</h4>
+            <h4 id="location-of-room">Osu,Accra</h4>
+          </div>
+
+          <div id="price-box" class="p-3">
+            <p>300 Cedis</p>
+            <button class="dark">View</button>
+          </div>
         </div>
       </div>
-
-      <div id="result-1" class="d-flex m-s1">
-        <div class="border-1 bg-dark d-sm-flex p-3">
-          <img src="/images/littlehome.jpg" alt="a home picure here" />
-        </div>
-
-        <div id="room-content" class="p-3">
-          <h3 id="type-of-room">Single Room</h3>
-          <h4 id="kind-of-room">Self-contained</h4>
-          <h4 id="location-of-room">Osu,Accra</h4>
-        </div>
-
-        <div id="price-box" class="p-3">
-          <p>300 Cedis</p>
-          <button class="dark">View</button>
-        </div>
-      </div>
-
-      <div id="result-1" class="d-flex m-s1">
-        <div class="border-1 bg-dark d-sm-flex p-3">
-          <img src="/images/littlehome.jpg" alt="a home picure here" />
-        </div>
-
-        <div id="room-content" class="p-3">
-          <h3 id="type-of-room">Single Room</h3>
-          <h4 id="kind-of-room">Self-contained</h4>
-          <h4 id="location-of-room">Osu,Accra</h4>
-        </div>
-
-        <div id="price-box" class="p-3">
-          <p>300 Cedis</p>
-          <button class="dark">View</button>
-        </div>
-      </div>
+      <!-- end of card -->
     </div>
 
     <!-- a search result stop -->
