@@ -16,37 +16,46 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <!--my own css-->
-    <link href="iindex.css" rel="stylesheet" />
 
     <title>RENT</title>
   </head>
   <body>
-    <main>
-      <div>
-        <img
-          src="/images/laying.svg"
-          alt="logo for search"
-          style="height: 200px; width: 200px"
-        />
-
-        <h1>RENT A PLACE OF YOUR CHOICE</h1>
-        <p>save money, and avoid the cost of foot searching a room to rent.</p>
-
-        <div class="choose">
-          <select name="type_of_room" class="select_place">
-            <option value="data-single">Single Room</option>
-            <option value="data-two">Two Rooms</option>
-            <option value="data-three">Three Rooms</option>
-            <option value="data-four">Four Rooms</option>
-            <option value="data-five">Five Rooms</option>
-          </select>
+    <main class="d-flex justify-content-center align-items-center min-vh-100">
+      <div class="d-flex m-4 h-auto flex-column" style="width: inherit">
+        <!-- logo picture -->
+        <div class="d-flex justify-content-center align-items-center">
+          <img
+            src="/images/laying.svg"
+            alt="room picture"
+            style="height: 120%; width: 50%"
+          />
         </div>
+        <!-- end of logo picture -->
 
-        <br />
-        <button class="continue" onclick="window.location.href='search.html'">
-          Continue
-        </button>
+        <!-- get started content -->
+
+        <div class="content" style="text-align: center">
+          <h5>RENT A PLACE OF YOUR CHOICE</h5>
+          <p>
+            save money, and avoid the cost of foot searching a room to rent.
+          </p>
+
+          <div>
+            <select name="type_of_room" class="select_place">
+              <option value="data-single">Single Room</option>
+              <option value="data-two">Two Rooms</option>
+              <option value="data-three">Three Rooms</option>
+              <option value="data-four">Four Rooms</option>
+              <option value="data-five">Five Rooms</option>
+            </select>
+          </div>
+
+          <br />
+          <button onclick="window.location.href='searchroom.html'">
+            Continue
+          </button>
+        </div>
+        <!-- get started content -->
       </div>
     </main>
 
